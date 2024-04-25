@@ -1,0 +1,107 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  grid-area: header;
+  background-color: #f3d0d7;
+  text-align: center;
+  font-size: xx-large;
+  padding: 10px;
+}
+.menu {
+  grid-area: menu;
+  background-color: #f0ebe3;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+main {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 10px;
+  justify-items: center;
+  align-items: center;
+  background-color: #f6f5f2;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #f3d0d7;
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu main"
+    "footer footer";
+  grid-template-columns: 15% 85%;
+}
+.flex-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #f0ebe3;
+}
+.block_main_item {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+.block_main_item button {
+  border: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #f3d0d7;
+  border-radius: 20px;
+  font-size: medium;
+  font-weight: bold;
+}
+._1 {
+  background-image: url("../img/zoe-NKjIT7u5nXE-unsplash.jpg");
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+._2 {
+  background-image: url("..//img/zoe-DOYASc77qmw-unsplash.jpg");
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+._3 {
+  background-image: url("..//img/zoe-cOBuc8-d2hg-unsplash.jpg");
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+._4 {
+  background-image: url("..//img/angela-bailey-g-DME-cKPOc-unsplash.jpg");
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.ft-size {
+  font-size: large;
+}
