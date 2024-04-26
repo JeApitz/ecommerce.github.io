@@ -5,6 +5,11 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+p {
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+}
 
 .header {
   grid-area: header;
@@ -34,6 +39,7 @@ body {
   grid-area: footer;
   background-color: #f3d0d7;
   text-align: center;
+  padding: 10px;
 }
 .grid-container {
   display: grid;
@@ -66,6 +72,7 @@ body {
   border-radius: 20px;
   font-size: medium;
   font-weight: bold;
+  margin-top: 10px;
 }
 ._1 {
   background-image: url("../img/zoe-NKjIT7u5nXE-unsplash.jpg");
